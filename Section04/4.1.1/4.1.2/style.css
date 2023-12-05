@@ -1,0 +1,21 @@
+* {
+  border: 1px solid blueviolet;
+}
+
+h1{
+  padding: 10px;
+}
+
+li :hover{
+  margin: 30px;
+  color: aqua;
+}
+
+p{
+  padding: 10px;
+  margin: 30px;
+}
+
+#header {
+  color: pink;
+}
