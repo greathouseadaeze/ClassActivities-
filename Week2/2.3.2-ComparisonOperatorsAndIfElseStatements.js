@@ -12,7 +12,6 @@ if (age >= 25) {
 // if age is less than 25
 // console.log "Renting a car is very expensive."
 
-
 // Chaining if statements: if - else if - ... - else
 
 if (age >= 25) {

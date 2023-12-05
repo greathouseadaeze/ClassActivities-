@@ -9,8 +9,8 @@ function addNumbersFrom1To100() {
   return total;
 }
 // invoke the function and console.log its value
-addNumbersFrom1To100();
-console.log(total);
+console.log(addNumbersFrom1To100());
+// console.log(total);
 // try to print the variable "total" outside the function
 // ? what do you expect ?
 //i expected it to print but upon further inspection total is not accessible outside the function to log
@@ -31,3 +31,5 @@ function parentAndChildScope() {
   console.log("Parent Scope, Parent Variable:", parentVariable);
   console.log("Parent Scope, Child Variable:", childVariable);
 }
+
+console.log(parentAndChildScope());
